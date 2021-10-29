@@ -1,0 +1,23 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyD63rk6A6v9Zgbb2nc6MMzeU5OA2m96tjQ",
+    authDomain: "crested-pursuit-241123.firebaseapp.com",
+    projectId: "crested-pursuit-241123",
+    storageBucket: "crested-pursuit-241123.appspot.com",
+    messagingSenderId: "749243375523",
+    appId: "1:749243375523:web:7deb315de9d87491c18416",
+    measurementId: "G-QRLTLNTH9H"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
